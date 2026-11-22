@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="app_name">LinerXperiaNot</string>
-    <string name="xposed_description">监听 sf_rr_mode_event 并通过 SystemUI 发送静音顶部弹窗通知</string>
-</resources>
