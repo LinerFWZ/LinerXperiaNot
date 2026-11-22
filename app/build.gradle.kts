@@ -15,11 +15,11 @@ val hasReleaseSigning = !keystoreFilePath.isNullOrBlank() &&
     file(keystoreFilePath).exists()
 
 android {
-    namespace = "com.liner.xperianot"
+    namespace = "io.github.linerfwz.linerxperianot"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.liner.xperianot"
+        applicationId = "io.github.linerfwz.linerxperianot"
         minSdk = 31
         targetSdk = 35
         versionCode = System.getenv("VERSION_CODE")?.toIntOrNull() ?: 1
