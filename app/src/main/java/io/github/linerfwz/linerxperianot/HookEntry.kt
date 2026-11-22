@@ -1,4 +1,4 @@
-package com.liner.xperianot
+package io.github.linerfwz.linerxperianot
 
 import android.app.Application
 import android.app.Notification
@@ -24,7 +24,7 @@ class HookEntry : IXposedHookLoadPackage {
 
     companion object {
         private const val TARGET_PKG = "com.android.systemui"
-        private const val MODULE_PKG = "com.liner.xperianot" // 修改包名时需同步修改此处
+        private const val MODULE_PKG = "io.github.linerfwz.linerxperianot" // 修改包名时需同步修改此处
         private const val SETTING_KEY = "sf_rr_mode_event"
         private const val CHANNEL_ID = "sf_rr_headsup_silent"
         private const val NOTIF_ID = 202611
